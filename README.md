@@ -7,12 +7,15 @@ You can obtain your local copy of Intro.js from:
 
 **1)** You can get from original github repository, using ```git clone https://github.com/usablica/intro.js.git```
 
-**2)** You can simpley download zip or clone the current github repository
+**2)** You can simply download zip or clone the current github repository, using ```git clone https://github.com/megabytes1024kb/introjs-with-title.git```
 
 
 ## Newly Added feature
 
 **1)** `data-title` attribute added for the Dialog Header Title(Heading Text)
+<p align="center"><img src="https://github.com/megabytes1024kb/introjs-with-title/blob/master/introjs-header-title/intro-with-title.png"></p>
+
+
 
 ## How to use
 Intro.js can be added to your site in three simple steps:
@@ -28,6 +31,8 @@ For example:
 ````
 
 See all attributes [here](https://introjs.com/docs/intro/attributes/).
+
+> Newly added attribute is ```data-title``` - use to show heading of the introjs dialog box
 
 **3)** Call this JavaScript function:
 ```javascript
