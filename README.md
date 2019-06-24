@@ -94,8 +94,8 @@ There are two example given in this repository
 Please visit [Documentation](http://introjs.com/docs).
 
 
-## Authors
-** Manoj Bawane **
+## Author
+**Manoj Bawane**
 
 - [Twitter](https://twitter.com/manojbawane03)
 - [Github](https://github.com/megabytes1024kb)
