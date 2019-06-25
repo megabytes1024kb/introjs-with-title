@@ -1090,7 +1090,7 @@
           oldHelperNumberLayer.innerHTML = targetElement.step;
         }
         // set title of dialog - added By ManojB
-        oldtooltipHeadingText.innerHTML = targetElement.title;
+        oldtooltipHeadingText.innerHTML =  (targetElement.title != null) ? targetElement.title : '';
 
         //set current tooltip text
         oldtooltipLayer.innerHTML = targetElement.intro;
@@ -1220,9 +1220,10 @@
 
       tooltipHeadingLayer.className = 'introjs-tooltipHeadingLayer';
       tooltipHeadingText.className = 'introjs-tooltipHeadingText';
-      tooltipHeadingText.innerHTML = targetElement.title;
+      tooltipHeadingText.innerHTML = (targetElement.title != null) ? targetElement.title : '';
       tooltipHeadingLayer.appendChild(tooltipHeadingText);
-
+      /* End - Manoj B */
+      
       tooltipLayer.className = 'introjs-tooltip';
       tooltipLayer.appendChild(tooltipHeadingLayer); // Added by ManojB
       tooltipLayer.appendChild(tooltipTextLayer);
